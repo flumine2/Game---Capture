@@ -32,7 +32,7 @@ namespace Game___Capture
             InitializeComponent();
             Game_Field.Background = new ImageBrush
             {
-                ImageSource = ToBitmapImage(Resource1.ico),
+                ImageSource = ToBitmapImage(Resource1.Bomb),
                 Stretch = Stretch.Uniform,
             };
 

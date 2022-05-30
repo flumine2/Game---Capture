@@ -3,14 +3,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:res="clr-namespace:Game___Capture.Resources"
         xmlns:local="clr-namespace:Game___Capture"
         mc:Ignorable="d"
-        Title="MainWindow" 
+        Title="Capture" 
         Width="1280" Height="750" 
         MaxWidth="1280" MaxHeight="750"
         MinWidth="1280" MinHeight="750"
         Background="#1E1E1E"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        Icon="Resources/icon.ico" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="180"/>
@@ -32,9 +34,12 @@
         <StackPanel Orientation="Vertical" 
                     Grid.Column="1" 
                     Margin="10 10 10 10">
+            
             <InkCanvas x:Name="Game_Field" Height="628"/>
+            
             <Rectangle Width="830" Height="72"
                    Fill="Red"/>
+            
         </StackPanel>
 
         <StackPanel Orientation="Vertical" Grid.Column="2">
