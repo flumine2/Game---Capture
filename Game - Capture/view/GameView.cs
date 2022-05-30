@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game___Capture.model
+namespace Game___Capture.view
 {
-    class Game
+    class GameView
     {
-        private int score;
-        private TimerExpanded Timer;
-
+        
     }
 }

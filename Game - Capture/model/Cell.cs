@@ -6,8 +6,26 @@ using System.Threading.Tasks;
 
 namespace Game___Capture.model
 {
-    class Cell
-    {
+    public enum CellKind
+    { 
+        Empty = 0,
+        Gift = 1,
+        Bomb = 2
+    }
 
+    public class Cell
+    {
+        private CellKind kind;
+
+        public CellKind Kind
+        {
+            get => kind;
+            set { kind = value; }
+        }
+
+        public Cell(CellKind kind)
+        {
+            this.kind = kind;
+        }
     }
 }

@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game___Capture.model
+namespace Game___Capture.service
 {
-    class Game
+    class PlayerActionService
     {
-        private int score;
-        private TimerExpanded Timer;
 
     }
 }
