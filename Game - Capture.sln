@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game - Capture", "Game - Capture\Game - Capture.csproj", "{3AB0A4E1-4BAC-401A-87B0-0FD66EEAEDC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FF1793F0-B4D6-400F-B0CE-7C16CF4902FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptureConsole", "CaptureConsole\CaptureConsole.csproj", "{04BDA26D-CA41-4D57-8A82-9CCFDE14374B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{3AB0A4E1-4BAC-401A-87B0-0FD66EEAEDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AB0A4E1-4BAC-401A-87B0-0FD66EEAEDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AB0A4E1-4BAC-401A-87B0-0FD66EEAEDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BDA26D-CA41-4D57-8A82-9CCFDE14374B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BDA26D-CA41-4D57-8A82-9CCFDE14374B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BDA26D-CA41-4D57-8A82-9CCFDE14374B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BDA26D-CA41-4D57-8A82-9CCFDE14374B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04BDA26D-CA41-4D57-8A82-9CCFDE14374B} = {FF1793F0-B4D6-400F-B0CE-7C16CF4902FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {679FA64A-BA75-4573-9048-3E9C82E967B2}
