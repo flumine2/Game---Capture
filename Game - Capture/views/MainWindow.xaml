@@ -3,8 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:res="clr-namespace:Game___Capture.Resources"
-        xmlns:local="clr-namespace:Game___Capture"
+        xmlns:local="clr-namespace:Game___Capture.views"
         mc:Ignorable="d"
         Title="Capture" 
         Width="1280" Height="750" 
@@ -12,40 +11,37 @@
         MinWidth="1280" MinHeight="750"
         Background="#1E1E1E"
         WindowStartupLocation="CenterScreen"
-        Icon="Resources/icon.ico" ResizeMode="NoResize">
+        Icon="../Resources/icon.ico" ResizeMode="NoResize"
+        Closing="Window_Closing">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="180"/>
             <ColumnDefinition/>
-            <ColumnDefinition Width="250"/>
         </Grid.ColumnDefinitions>
         
         <StackPanel Orientation="Vertical" Grid.Column="0">
-            <TextBlock Text="Time:" Foreground="White" FontSize="36" />
+            <TextBlock Text="Time:" Foreground="White" FontSize="36"/>
 
-            <TextBlock x:Name="Time_String" Foreground="White" FontSize="36"/>
+            <TextBlock x:Name="Time_Line" Foreground="White" FontSize="36"/>
 
             <TextBlock Text="Score:" Foreground="White" FontSize="36"/>
 
             <TextBlock x:Name="Score_String" Foreground="White" FontSize="36"/>
-            <Button x:Name="Butt" Width="120" Height="20" Click="Butt_Click"/>
         </StackPanel>
 
         <StackPanel Orientation="Vertical" 
                     Grid.Column="1" 
                     Margin="10 10 10 10">
-            
-            <InkCanvas x:Name="Game_Field" Height="628"/>
-            
-            <Rectangle Width="830" Height="72"
-                   Fill="Red"/>
-            
-        </StackPanel>
 
-        <StackPanel Orientation="Vertical" Grid.Column="2">
-            <TextBlock Text="Top 5" FontSize="36" HorizontalAlignment="Center" Foreground="White"/>
+            <Image x:Name="Game_Field" 
+                   Height="628" 
+                   MouseDown="Game_Field_MouseDown" 
+                   MouseUp="Game_Field_MouseUp"
+                   MouseLeave="Game_Field_MouseLeave" Width="600"/>
 
-            <StackPanel x:Name="Top5List_Panel" Orientation="Vertical"/>
+            <Image Source="../Resources/BreakLine.png"
+                Width="600" Height="72" />
+
         </StackPanel>
     </Grid>
 </Window>

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game___Capture.controler
+namespace Game___Capture.Updatable
 {
-    class Controler
+    interface IUpdatable
     {
+        void Update(double deltaTime);
     }
 }

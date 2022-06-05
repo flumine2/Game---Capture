@@ -23,6 +23,16 @@ namespace CaptureWPFTest
         public MainWindow()
         {
             InitializeComponent();
+            Print();
+        }
+
+        private async void Print()
+        {
+            while (true)
+            {
+                Field.Strokes.ToString();
+                await Task.Delay(25);
+            }
         }
     }
 }

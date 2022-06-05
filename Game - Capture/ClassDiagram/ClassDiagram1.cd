@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Game___Capture.App" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.Config" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABAAABBAQCAAABAAAAAAAAAAAABAAAAAAgA=</HashCode>
+      <FileName>Config.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.GameObject">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game___Capture.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAgAAAAAQAAAIBQAQCAABJAAAAAAgAAJAAAAAAQ=</HashCode>
+      <FileName>views\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Game___Capture.model.Cells.BombCell">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\Cells\BombCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.model.Cells.Cell">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAACAAgAAAAAAAAAAAABAAAAAAAgAAAYAA=</HashCode>
+      <FileName>model\Cells\Cell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.model.Cells.EmptyCell">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\Cells\EmptyCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.model.Cells.GiftCell">
+    <Position X="4.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\Cells\GiftCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.model.Game" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAggAAAAAAAAAAAEAAAABAAAAABAEAAA=</HashCode>
+      <FileName>model\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.model.GameField">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgABAAIAAAAAQCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\GameField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.model.RemainingTime" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAgACCgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\RemainingTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.model.UserControl.Segment">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAADACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\UserControl\Segment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.Properties.Resources" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.Properties.Settings" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.Resources.Resource1" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAABEAAAAQAAAAAAAQAEAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.service.GameFieldControlService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>service\GameFieldControlService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game___Capture.service.PlayerActionService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgEAAAUAAAAgAAAAAIAAAAgAAAQAAAAABBAAAA=</HashCode>
+      <FileName>service\PlayerActionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game___Capture.service.RenderService" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAEAEAAAABAAAQAAAIBAAAAAAAAQ=</HashCode>
+      <FileName>service\RenderService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.service.ScoreService" Collapsed="true">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAACAAAAQ=</HashCode>
+      <FileName>service\ScoreService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.service.UpdateService" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>service\UpdateService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.util.ConvertUtil" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAEAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>util\ConvertUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.util.IntersectionCheck" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAARAAAAAAEAAAAABAAABAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>util\IntersectionCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.util.RandomUtil" Collapsed="true">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAABQAQAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>util\RandomUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game___Capture.views.StartExitTopListWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABABgAEAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>views\StartExitTopListWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Game___Capture.Updatable.IUpdatable">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUpdatable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="Game___Capture.MousePositionDelegate" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>views\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
