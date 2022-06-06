@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Game___Capture
+namespace CaptureWPFTest
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,6 +23,16 @@ namespace Game___Capture
         public MainWindow()
         {
             InitializeComponent();
+            Print();
+        }
+
+        private async void Print()
+        {
+            while (true)
+            {
+                Field.Strokes.ToString();
+                await Task.Delay(25);
+            }
         }
     }
 }

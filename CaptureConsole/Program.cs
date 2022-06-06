@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game___Capture.model
+namespace CaptureConsole
 {
-    class Cell
+    class Program
     {
-
+        static void Main(string[] args)
+        {
+        }
     }
 }
