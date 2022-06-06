@@ -20,15 +20,13 @@ namespace Game___Capture.service
             _services = services;
         }
 
-        public void Update(double deltaTime)
+        public void UpdateAll(double deltaTime)
         {
             _game.GameField.Update(deltaTime);
             foreach (IUpdatable item in _services)
             {
                 item.Update(deltaTime);
             }
-
-
         }
     }
 }

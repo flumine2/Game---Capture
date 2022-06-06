@@ -45,18 +45,11 @@ namespace Game___Capture.model
 
         public override void Update(double deltaTime)
         {
-            foreach (Cell[] cells in _cells)
-            {
-                foreach (Cell cell in cells)
-                {
-                    cell.Update(deltaTime);
-                }
-            }
+            foreach (Cell cell in _cells.SelectMany(cells => cells))
+                cell.Update(deltaTime);
 
             foreach (Segment segment in Segments)
-            {
                 segment.Update(deltaTime);
-            }
         }
 
         public void OffsetField()

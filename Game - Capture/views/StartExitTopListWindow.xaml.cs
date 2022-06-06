@@ -37,7 +37,7 @@ namespace Game___Capture.views
             _mainWindow.StartNew();
         }
 
-        private void CreateTopList()
+        public void CreateTopList()
         {
             (string Name, int Score)[] result = Saves.Dictionary
                 .Select(x => (Name: x.Key, Score: Convert.ToInt32(x.Value["Score"])))

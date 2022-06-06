@@ -73,7 +73,7 @@ namespace Game___Capture
                 double elapsed = current - lastTime;
 
                 _actionService.ProcessInput(); // 1
-                _updateService.Update(elapsed); // 2
+                _updateService.UpdateAll(elapsed); // 2
                 _renderService.RenderFrame(); // 3
 
                 await Task.Delay(TimeSpan.FromMilliseconds(current + Config.MS_PER_FRAME - stopwatch.ElapsedMilliseconds));
@@ -111,7 +111,11 @@ namespace Game___Capture
         private void StopGame()
         {
             _gameIsRunning = false;
-            Saves.Dictionary[Environment.UserName]["Score"] = _game.Score;
+            if (Convert.ToInt32(Saves.Dictionary[Environment.UserName]["Score"]) < _game.Score)
+            {
+                Saves.Dictionary[Environment.UserName]["Score"] = _game.Score;
+            }
+            Dispatcher.Invoke(_startExitTopListWindow.CreateTopList);
         }
 
         #region Closing
